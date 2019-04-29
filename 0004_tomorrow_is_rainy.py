@@ -19,5 +19,5 @@ for x in range(3):
         b1 >> blip(oct=4, dur=1/3) + [3, 7, 9]
         flag = True
         time.sleep(1)
-        
+
 Clock.bpm = 200
