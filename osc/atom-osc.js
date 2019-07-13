@@ -20,6 +20,6 @@ msg.on('/test', (args) => {
  rot = args[1]/10
 })
 
-osc(() => freq)
 .mult(osc().rotate(()=>rot))
+osc(() => freq)
 .out()
